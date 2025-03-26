@@ -91,6 +91,10 @@ body {
 }
 
 .attribution {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* to ignore footer height in flex container and centering card relative to viewport */
   margin: var(--spacing-200) auto;
   font-size: 11px;
   text-align: center;
